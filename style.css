@@ -72,6 +72,7 @@ ul li{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    padding-bottom: 50px;
 }
 
 .infobody{
@@ -83,4 +84,38 @@ ul li{
 img{
     width: 400px;
     height: 200px;
+}
+
+/* Quote */
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    margin-top: 70px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote div{
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    left: 640px;
+    padding-top: 20px;
+    /* position relative is necessary so left: auto can take effect */
+    /* right: 10px; */
+}
+
+/* Sign and button */
+.call{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3882F6;
 }
