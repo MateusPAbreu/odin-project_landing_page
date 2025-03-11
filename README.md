@@ -1,0 +1,1 @@
+Practice project to get experience building a site from the ground up using HTML and CSS.

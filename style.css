@@ -1,0 +1,86 @@
+html,
+body{
+    margin:0;
+    padding:0;
+}
+/* Header */
+.main-header{
+    display: flex;
+    flex: auto; 
+    flex: wrap;
+    flex-direction: column;
+    justify-content: space-between; 
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.headline{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+ul li{
+    display: inline;
+    justify-content: space-evenly;
+    margin: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headbody{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.headbody-text .main-text{
+    font-size: 50px;
+}
+
+.subtext{
+    width: 430px;
+    padding-bottom: 12px;
+}
+
+.head-button{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px; /*this line is what makes the corners round*/
+    color: white;
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+}
+
+/* Info-images */
+.gallery{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.infobody{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
