@@ -118,4 +118,39 @@ img{
     align-items: center;
     flex-direction: row;
     background-color: #3882F6;
+    /* padding and margin */
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 100px;
+    /* Font */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* Rounded corner */
+    border-radius: 10px;
+}
+
+.call .call-t1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call button{
+    background-color: #3882F6;
+    border: 3px solid white;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/* Copyright */
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+    background-color: #1F2937;
+    color: white;
 }
